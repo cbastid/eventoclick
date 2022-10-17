@@ -1,0 +1,96 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+main {
+    border:2px solid black;
+    padding: 0px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Menu del aplicativo */
+header {
+    /* border: solid yellow; */
+    background-color: gray;
+    padding: 10px;
+}
+nav {
+    /* border: solid green; */
+    display: flex;
+}
+.nav-tit {
+    /* border: solid pink; */
+    margin-left: 10px;
+    align-items: baseline;
+    flex: 1;
+}
+.nav-login  {
+    /* border: solid darkmagenta; */
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 30px;
+    display: flex;
+    flex: 3;
+    list-style: none;
+
+    
+}
+.login {
+    color: antiquewhite;
+    background-color: dodgerblue;
+    box-shadow: 2px 2px 2px 1px rgba(6, 6, 12, 0.767);
+    width: 150px;
+    border-radius: 10px;
+    
+
+}
+.search{
+    width: 300px;
+}
+.row{
+    flex-direction: column; 
+    
+}   
+.col1, .col2{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    flex-direction: row;
+    
+}
+.row2{
+    flex-direction: column;
+
+    
+}  
+.col3{
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    
+}
+.btn1{
+    background-color: darkgoldenrod;
+    box-shadow: 2px 2px 2px 1px rgba(6, 6, 12, 0.767);
+}
+a{
+    color: blue;
+}
+.add{
+    background-color: chartreuse;
+}
+footer{
+    background-color: gray;
+    padding: 5px;
+    text-align: right;
+}
